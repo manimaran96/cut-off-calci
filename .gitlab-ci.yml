@@ -17,6 +17,3 @@ pages:
       - public
   only:
     - main
-
-include:
-- template: Security/SAST.gitlab-ci.yml
