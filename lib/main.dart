@@ -1,7 +1,8 @@
-import 'package:cut_off_calci/components/button.dart';
+import 'package:cut_off_calci/components/tab_item.dart';
+import 'package:cut_off_calci/utils/app_constants.dart';
 import 'package:flutter/material.dart';
 
-import 'components/edit_text.dart';
+import 'input_fields/input_fileds_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -36,20 +37,28 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
-      body:  Padding(
-        padding: const EdgeInsets.all(8.0),
-        child: Column(
-          children: [
-              EditTextWidget(label: "Biology", hintText: "Enter your biology mark"),
-              EditTextWidget(label: "Chemistry", hintText: "Enter your chemistry mark"),
-              EditTextWidget(label: "Physics", hintText: "Enter your physics mark"),
-              EditTextWidget(label: "Maths", hintText: "Enter your maths mark"),
-              ButtonWidget()
+    return DefaultTabController(
+      length: 4,
+      child: Scaffold(
+        appBar: AppBar(
+          title: Text(widget.title),
+          bottom: TabBar(
+            isScrollable: true,
+            tabs: [
+              TabItemWidget(text: "Engineering",),
+              TabItemWidget(text: "Medical(Maths Science)",),
+              TabItemWidget(text: "Medical(Pure Science)",),
+              TabItemWidget(text: "Agriculture",),
             ],
+          ),
+        ),
+        body:  TabBarView(
+          children: [
+            InputFieldsPage(type: CalculationType.Engineering),
+            InputFieldsPage(type: CalculationType.Medical_Maths_Science),
+            InputFieldsPage(type: CalculationType.Medical_Pure_Science),
+            InputFieldsPage(type: CalculationType.Agriculture),
+          ],
         ),
       ),
     );
