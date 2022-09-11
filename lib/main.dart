@@ -38,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 4,
+      length: CalculationType.values.length,
       child: Scaffold(
         appBar: AppBar(
           title: Text(widget.title),
@@ -46,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
             isScrollable: true,
             tabs: [
               TabItemWidget(text: "Engineering",),
-              TabItemWidget(text: "Medical(Maths Science)",),
+              TabItemWidget(text: "Medical(Bio Maths)",),
               TabItemWidget(text: "Medical(Pure Science)",),
               TabItemWidget(text: "Agriculture",),
             ],
@@ -55,7 +55,7 @@ class _MyHomePageState extends State<MyHomePage> {
         body:  TabBarView(
           children: [
             InputFieldsPage(type: CalculationType.Engineering),
-            InputFieldsPage(type: CalculationType.Medical_Maths_Science),
+            InputFieldsPage(type: CalculationType.Medical_Bio_Maths),
             InputFieldsPage(type: CalculationType.Medical_Pure_Science),
             InputFieldsPage(type: CalculationType.Agriculture),
           ],

@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.10)
 project(runner LANGUAGES CXX)
 
-set(BINARY_NAME "cut_off_calci")
-set(APPLICATION_ID "com.example.cut_off_calci")
+set(BINARY_NAME "Cut Off Calci")
+set(APPLICATION_ID "com.manimarank.cutoffcalci")
 
 cmake_policy(SET CMP0063 NEW)
 
