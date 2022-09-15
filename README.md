@@ -25,18 +25,18 @@ Cut Off Calculator app for calculating Engineering, Medical Bio Maths, Medical P
 
 
 ## Useful links
- * [Blog about Cut Off Calci](https://manimaran96.wordpress.com/category/android-apps/website-monitor/)
+ * [Blog about Cut Off Calci](https://manimaran96.wordpress.com/category/android-apps/cut-off-calci/)
 
 
 ## Screen Shots
 
-| Main & Menu Options | Settings | Monitor Intervals | Custom Monitor Setup |
-|:-:|:-:|:-:|:-:|
-| ![First](files/screenshots/1.png) | ![Sec](fastlane/metadata/android/en-US/images/phoneScreenshots/2.png?raw=true) | ![Third](fastlane/metadata/android/en-US/images/phoneScreenshots/3.png?raw=true) | ![Fourth](fastlane/metadata/android/en-US/images/phoneScreenshots/4.png?raw=true) |
+| Main Page & Engineering | Medical Bio Maths | Medical Pure Science |
+|:-:|:-:|:-:|
+| ![First](files/screenshots/1.png?raw=true) | ![Sec](files/screenshots/2.png?raw=true) | ![Third](files/screenshots/3.png?raw=true) |
 
-| Custom Monitor Info | Update | Dark mode | Notification |
-|:-:|:-:|:-:|:-:|
-| ![Fifth](fastlane/metadata/android/en-US/images/phoneScreenshots/5.png?raw=true) | ![Sixth](fastlane/metadata/android/en-US/images/phoneScreenshots/6.png?raw=true) | ![Seventh](fastlane/metadata/android/en-US/images/phoneScreenshots/7.png?raw=true) | ![Eighth](fastlane/metadata/android/en-US/images/phoneScreenshots/8.png?raw=true) |
+| Agriculture | Cut Off Result | Home page |
+|:-:|:-:|:-:|
+| ![Fifth](files/screenshots/4.png?raw=true) | ![Sixth](files/screenshots/5.png?raw=true) | ![Seventh](files/screenshots/1.png?raw=true) |
 
 
 ## License
