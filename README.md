@@ -11,17 +11,24 @@ Cut Off Calculator app for calculating Engineering, Medical Bio Maths, Medical P
 <a href="https://manimaran96.wordpress.com" alt="Developer badge"><img src="https://img.shields.io/badge/developed%20by-Manimaran-blue.svg" ></a>
 </p>
 
+## Mobile app
+
 <p align="center">
 <a href="https://f-droid.org/packages/com.manimarank.cutoffcalci/"><img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" width="200px"></a><a href="https://play.google.com/store/apps/details?id=com.manimarank.cutoffcalci"><img src="https://raw.githubusercontent.com/manimaran96/Spell4Wiki/master/files/assets/images/badges/google_play.png" width="200px"></a>
 </p>
 
 **Release/Demo App** - [Click here](https://gitlab.com/manimaran/cut_off_calci/-/releases)
 
+## Web app
+
+[https://manimaran.gitlab.io/cut_off_calci](https://manimaran.gitlab.io/cut_off_calci)
+
 
 ## App Features
 - Simple UI.
 - Cut Off Mark Calculator
 - Supported Engineering, Medical Bio Maths, Medical Pure Science and Agriculture cut off mark calculation
+- Developed in Flutter
 
 
 ## Useful links
